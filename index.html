@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackers way</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* CSS Reset */
+    body{
+        font-family: 'Pattaya', sans-serif;
+        color:black;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/Desert.jpg");
+        /* height: 1555px; */
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid rgb(180, 17, 180); */
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+    .left img{
+        width: 85px;
+        /* filter: invert(100%); */
+
+    }
+    .left div{
+        line-height: 13px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 30px auto;
+        /* border: 2px solid  rgb(27, 235, 27); */
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 33px;
+
+        display: inline-block;
+        /* border: 2px solid black; */
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 17px;
+        
+    }
+    .navbar li a{
+        color: rgb(16, 1, 20);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+       
+    }
+    .btn{
+        font-family: 'Pattaya', sans-serif;
+        margin: 0px 9px;
+        padding: 4px 14px;
+        background-color: black;
+       color: white;
+       /* border: rgb(238, 130, 130); */
+       border-radius: 10px;
+       font-size: 15px;
+       cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: rgb(75, 51, 16);
+    }
+
+  .container {
+    border: 2px solid white;
+    margin: 49px 12px;
+    padding: 60px 67px;
+    width: 33%;
+    border-radius: 15px;
+}
+.container input{
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    display: block;
+    width: 228px;
+    padding: 8px;
+    margin: 4px auto;
+    /* border: 2px solid black; */
+    font-size: 20px;
+    border-radius: 17px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+    
+</style>
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+          <img src="img/black.jpg.jpg" alt="">
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Hackers</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            
+         </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Search here now</button>
+            <button class="btn">Start your journey</button>
+            
+        </div>
+    </header>
+<div class="container">
+   <h1>Join us with best programming skil</h1>
+   <form action="noaction.php">
+       <div class="form group">
+           <input type="text" name="" placeholder="enter your name">
+       </div>
+       <div class="form group">
+           <input type="text" name="" placeholder="enter your age">
+       </div>
+       <div class="form group">
+           <input type="text" name="" placeholder="enter your gender">
+       </div>
+       <div class="form group">
+           <input type="text" name="" placeholder="enter your locality">
+       </div>
+       <div class="form group">
+           <input type="text" name="" placeholder="enter your phone number">
+       </div>
+       <div class="form group">
+           <input type="text" name="" placeholder="enter your e-mail id">
+       </div>
+<button class="btn">summit</button>
+   </form>
+</div>
+    
+</body>
+</html>
